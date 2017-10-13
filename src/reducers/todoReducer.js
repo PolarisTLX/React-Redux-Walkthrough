@@ -1,7 +1,11 @@
 import constants from '../constants'
 
 var initialState = {
-  todos: []
+  todos: [    
+      {name:'Groceries', description: 'pick up groceries'},
+      {name:'Laundry', description: 'do laundry'},
+      {name:'Dishes', description: 'do dishes'}
+  ]
 }
 
 export default (state = initialState, action) => {
